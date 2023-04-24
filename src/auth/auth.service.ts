@@ -10,6 +10,8 @@ export class AuthService {
    
    async signup(dto:AuthDto) {
     const {email,password}=dto
+    console.log(`Email ${email}`);
+    
     //this.prisma.user.
       return {message: 'Sign up was successful'}
     }
