@@ -26,3 +26,9 @@ export class AuthService {
         return {message: 'Sign out was successful'}
     }
 }
+
+
+
+// git add .
+// git commit -m "first commit"
+// git push 
